@@ -286,18 +286,18 @@ For debugging Visual Studio Code is recommended.
 $ pnpm test
 ```
 
-### Build the app
+### Package
 
 #### Create portable version
 
 ```
-$ pnpm exec electron-builder --dir --config electron-builder-config.yml --publish never
+$ pnpm package:dir
 ```
 
 #### Create installer
 
 ```
-$ pnpm exec electron-builder --config electron-builder-config.yml --publish never
+$ pnpm package
 ```
 
 ## Alternatives
